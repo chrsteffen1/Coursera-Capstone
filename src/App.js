@@ -1,9 +1,12 @@
 import './App.css';
+import ChoiceCard from './Components/ChoiceCard';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Little Lemon</h1>
+      <h1>Rock Paper Scissors</h1>
+      <ChoiceCard/>
     </div>
   );
 }
