@@ -1,4 +1,4 @@
-import Button from 'react-bootstrap/Button';
+import  Button  from 'react-bootstrap/Button';
 import { useState } from 'react';
 
 const ChoiceCard = () => {
@@ -10,7 +10,7 @@ const ChoiceCard = () => {
 
   return (
     <div>
-      <Button onClick={handleOnClick} value='Rock'>Rock</Button>
+      <Button variant='primary' onClick={handleOnClick} value='Rock'>Rock</Button>
       <Button onClick={handleOnClick} value='Paper'>Paper</Button>
       <Button onClick={handleOnClick} value='Scissors'>Scissors</Button>
       {choice}

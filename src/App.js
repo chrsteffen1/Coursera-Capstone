@@ -1,5 +1,6 @@
 import './App.css';
 import ChoiceCard from './Components/ChoiceCard';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
