@@ -1,5 +1,7 @@
 import  Button  from 'react-bootstrap/Button';
 import { useState, useEffect} from 'react';
+import 'animate.css'
+import '../App.css';
 
 const ChoiceCard = () => {
   const [choice, setChoice] = useState('Start')
@@ -22,6 +24,7 @@ const ChoiceCard = () => {
       if(randomNumber === 2){
         setCompChoice('Scissors')
       }
+    
   }
 
   const determineWinner = (choice, compChoice) => {
@@ -62,9 +65,9 @@ const ChoiceCard = () => {
       <Button variant={color} onClick={handleOnClick} value='Paper'>Paper</Button>
       <Button variant={color} onClick={handleOnClick} value='Scissors'>Scissors</Button>
       <Button onClick={getComputerChoice}>Play game</Button>
-      {choice}
-      {compChoice}
-      {result}
+      <p>{choice}</p>
+      <p>{compChoice}</p>
+      <p>{result}</p> 
     </div>
   );
 }
