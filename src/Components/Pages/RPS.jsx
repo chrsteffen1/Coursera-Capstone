@@ -8,5 +8,5 @@ const RPS = () => {
     </>
   );
 }
- 
+
 export default RPS;

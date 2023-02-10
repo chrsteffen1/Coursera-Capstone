@@ -1,13 +1,11 @@
 import {Link} from 'react-router-dom'
-
+import '../App.css'
 
 const NavBar = () => {
   return (  
     <nav>
-    <ul>
-      <li><Link to={'/'}>Home</Link></li>
-      <li><Link to={'rps'}>Rock Paper Scissors </Link></li>
-    </ul>
+      <Link to={'/'}>Home</Link>
+      <Link to={'rps'}>Rock Paper Scissors </Link>
     </nav>
   );
 }
