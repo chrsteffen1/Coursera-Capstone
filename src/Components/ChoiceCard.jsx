@@ -61,6 +61,7 @@ const ChoiceCard = () => {
 
   return (
     <div>
+      <h1>Rock Paper Scissors</h1>
       <Button variant={color} onClick={handleOnClick} value='Rock'>Rock</Button>
       <Button variant={color} onClick={handleOnClick} value='Paper'>Paper</Button>
       <Button variant={color} onClick={handleOnClick} value='Scissors'>Scissors</Button>

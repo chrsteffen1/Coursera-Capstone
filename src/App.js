@@ -1,15 +1,17 @@
-import './App.css';
-import ChoiceCard from './Components/ChoiceCard';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import {Route, Routes} from "react-router-dom"
+import './App.css';
+import RPS from "./Components/Pages/RPS";
+import Home from "./Components/Pages/Home";
+import NavBar from "./Components/NavBar";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
+      <NavBar/>
       <Routes>
-        <Route path='/'/>
-        <h1>Rock Paper Scissors</h1>
-        <ChoiceCard/>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/rps' element={<RPS/>} />
       </Routes>
     </div>
   );
