@@ -4,6 +4,7 @@ import RPS from "./Components/Pages/RPS";
 import Home from "./Components/Pages/Home";
 import NavBar from "./Components/NavBar";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Reservation from "./Components/Pages/Reservation";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/rps' element={<RPS/>} />
+        <Route path='reservation' element={<Reservation/>}/>
       </Routes>
     </div>
   );
