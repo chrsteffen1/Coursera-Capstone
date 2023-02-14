@@ -1,10 +1,10 @@
 import {Route, Routes} from "react-router-dom"
 import './App.css';
-import RPS from "./Components/Pages/RPS";
-import Home from "./Components/Pages/Home";
+import RPS from "./Pages/RPS";
+import Home from "./Pages/Home";
 import NavBar from "./Components/NavBar";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Reservation from "./Components/Pages/Reservation";
+import Reservation from "./Pages/Reservation";
 
 function App() {
   return (

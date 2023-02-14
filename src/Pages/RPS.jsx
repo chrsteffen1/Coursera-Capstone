@@ -1,4 +1,4 @@
-import ChoiceCard from "../ChoiceCard";
+import ChoiceCard from "../Components/ChoiceCard";
 
 
 const RPS = () => {
